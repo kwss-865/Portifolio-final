@@ -20,3 +20,32 @@ body{
 h1,h2{
     font-family: var(--fonte-titulo);
 }
+
+.card{
+    background-color: var(--verdinho);
+    color: var(--preto);
+}
+
+.btn{
+    color: var(--verdinho);
+    background-color: var(--preto)
+}
+
+.btn:hover{
+    background-color: var(--verde-claro);
+    transition: 1s;
+}
+
+a{
+    color: var(--preto);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--verdinho);
+}
+
+
