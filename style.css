@@ -22,11 +22,18 @@ body{
 h1,h2{
     font-family: var(--fonte-texto2);
     color: var(--verde-claro);
-    
 }
 
 .estilizando{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    line-height: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.2rem;
 }
 
 h3{
@@ -58,10 +65,11 @@ h3{
     transition: 1s;
 }
 
-.modal-header{
+.modal-title{
     color: var(--verde-claro);
     font-family: var(--fonte-texto2);
     font-weight: bolder;
+
 }
 
 .modal-body {
@@ -86,5 +94,6 @@ a:hover {
     font-size: 1.2rem;
     color: var(--verdinho);
 }
+
 
 
